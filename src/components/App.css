@@ -1,0 +1,20 @@
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.appContainer {
+margin: 20px 0;
+}

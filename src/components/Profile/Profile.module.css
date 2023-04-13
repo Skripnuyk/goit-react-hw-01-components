@@ -1,0 +1,62 @@
+.profile {
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+  border: 1px solid #bbb;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 0 #999;
+}
+
+  .listItem {
+  flex-basis: 33.3333%;
+  text-align: center;
+  padding: 10px;
+  }
+  
+  .listItem:not(:last-child) {
+    border-right: 1px solid #bbb;}
+  
+
+.avatar {
+  margin: auto;
+  padding: 10px;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.stats {
+  margin: 0;
+  display: flex;
+  padding: 0;
+  border-top: 1px solid #bbb;
+  background-color: rgb(230, 230, 230);
+  list-style: none;
+}
+
+.label {
+  display: block;
+  text-decoration: solid;
+  margin-bottom: 10px;
+}
+
+.quantity {
+  font-weight: 500;
+}
+
+.tag, .location {
+color: rgb(194, 188, 188);
+padding-top: 10px;
+}
+
+.description {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
