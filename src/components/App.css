@@ -16,5 +16,13 @@ img {
   height: auto;
 }
 .appContainer {
-margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.titleTask {
+  padding: 30px 0px;
+  text-align: center;
 }
