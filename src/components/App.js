@@ -24,6 +24,9 @@ export const App = () => {
       <Section title={"Task 2 'Statistics'"}>
         <Statistics title="Upload stats" stats={data} />
       </Section>
+      <Section>
+        <Statistics stats={data} />
+      </Section>
       <Section title={"Task 3 'Friend List'"}>
         <FriendList friends={friends} />
       </Section>
