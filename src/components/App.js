@@ -7,11 +7,12 @@ import './App.css';
 import { FriendList } from './FriendList/FriendList';
 import friends from '../data/friends.json'
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import { Section } from './Section/Section';
 
 export const App = () => {
   return (
     <div className="appContainer">
-        <h2 className="titleTask">Task 1 Social Profile</h2>
+      <Section title={"Task 1 'Social Profile'"}>
         <Profile
           username={user.username}
           tag={user.tag}
@@ -19,12 +20,16 @@ export const App = () => {
           avatar={user.avatar}
           stats={user.stats}
         />
-        <h2 className="titleTask">Task 2 Statistics</h2>
+      </Section>
+      <Section title={"Task 2 'Statistics'"}>
         <Statistics title="Upload stats" stats={data} />
-        <h2 className="titleTask">Task 3 Friend List</h2>
+      </Section>
+      <Section title={"Task 3 'Friend List'"}>
         <FriendList friends={friends} />
-        <h2 className="titleTask">Task 4 Transaction History</h2>
+      </Section>
+      <Section title={"Task 4 'Transaction History'"}>
         <TransactionHistory items={items} />
+      </Section>
     </div>
   );
 };
